@@ -1,0 +1,72 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+/*
+the <*> symbol declared the all elements on the page will have the style
+properties [margin] and [properties] to set as [0]
+*/
+
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+/*
+header and footers are shown in the code.
+we combined two selectors into a single CSSS rule with a comma.
+allowing the declarationsto affect both selectors.
+Rather than repeatig a rule which would add more lines of code and repitition.
+*/
+/*  DRY (Do Not Repeat Yourself */
+
+
+
+h1,
+h2 {
+    text-align: center;
+}
+/* the h1 and h2 rule assignment is a positioning propety,
+text-align. this is one way to center a title or heading on 
+wepbpage. */
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+the <img> selector assigns property values to any image element in the markup. 
+the [display] property is assigned with the [block] value, which assigns
+each image to start on a new line.
+*/
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+/* 
+<ul> elemeents eclared the font to be 20 px, and the padding on the 
+left of the unorderedto be 40 px
+*/
+
+
+p {
+  text-align: center;
+  font-size: 30px;
+  
+}
+/* for the <p> text to be centered on the page with a font size of 30px */
+
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+  }
